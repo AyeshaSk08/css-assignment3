@@ -1,6 +1,6 @@
 body {
   margin: 0;
-   padding-bottom: 10000px;
+   padding-bottom: 10px;
   position: relative;
 }
 
@@ -239,6 +239,81 @@ font-family: "Source Sans Pro", sans-serif;
     margin-top: 20px;
     padding: 10px;
 }
+#plans {
+    color: #fff;
+    background-image: url("images/img-decor-03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px;
+}
+.plan-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #ffffff0d;
+}
+.pricing-wrapper {
+    display: flex;
+    text-align: center;
+    gap: 0px 5px;
+    justify-content: center;
+    margin-bottom: 50px;
+}   
+.pricing-box {
+    background-color: #ffffff15;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+.divider-line {
+    width: 60px;
+    height: 5px;
+    background-color: #8D81AC;
+    margin: 30px 0px;
+}
+.plan-description {
+    font-size: 18px;
+    padding: 30px;
+    margin: 0;
+}
+.plan-details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan-price {
+    font-size: 64px;
+    color: #ffffff2e;
+    margin: 20px 0 10px 0;
+}
+.plan-price span {
+    color: #fff;
+    font-weight: bold;
+}
+.billing-cycle {
+    color: #ffffff40;
+}
+ .btn-subscribe {
+    background-color: #ffffff26;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.section-description {
+    font-size: 14px;
+    color: #746074;
+    text-align: center;
+    padding: 0 120px 5px;
+} 
+
 .subscribe{
     padding: 20px 50px;
     display: flex;
